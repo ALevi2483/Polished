@@ -1,46 +1,125 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-<title>Page Not Found | Polished</title>
+    <title>Page Not Found | Polished Perspectives</title>
 
-<link rel="stylesheet" href="css/style.css">
+    <meta
+        name="description"
+        content="The page you were looking for could not be found."
+    >
 
+    <meta name="robots" content="noindex">
+
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="images/polished-icon-32.png"
+    >
+
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="images/polished-icon-192.png"
+    >
+
+    <link
+        rel="apple-touch-icon"
+        href="images/polished-icon-192.png"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="error-body">
 
-<main class="error-page">
+    <main class="error-page">
 
-<div>
+        <div class="error-container">
 
-<div class="logo error-logo">
-POLISHED
-<span>Business Solutions</span>
-</div>
+            <!-- LOGO -->
 
-<p class="eyebrow">404 ERROR</p>
+            <a
+                href="index.html"
+                class="error-logo"
+                aria-label="Polished Perspectives Home"
+            >
+                <img
+                    src="images/polished-perspectives-logo-white-transparent.png"
+                    alt="Polished Perspectives"
+                >
+            </a>
 
-<h1>We couldn't find that page.</h1>
 
-<p>
-The page may have moved, been removed,
-or the address may be incorrect.
-</p>
+            <!-- ERROR CONTENT -->
 
-<a href="index.html" class="button button-gold">
-Return Home
-</a>
+            <div class="error-content">
 
-</div>
+                <img
+                    src="images/polished-perspectives-mark-white-transparent.png"
+                    alt=""
+                    class="error-mark"
+                >
 
-</main>
+                <p class="eyebrow">
+                    404 ERROR
+                </p>
+
+                <h1>
+                    We couldn't find
+                    <span>that page.</span>
+                </h1>
+
+                <p class="error-text">
+                    The page may have moved, been removed,
+                    or the address may be incorrect.
+                </p>
+
+                <div class="error-buttons">
+
+                    <a
+                        href="index.html"
+                        class="button button-gold"
+                    >
+                        Return Home
+                    </a>
+
+                    <a
+                        href="contact.html"
+                        class="button button-outline"
+                    >
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOTTOM BRANDING -->
+
+            <div class="error-footer">
+
+                <p>
+                    Turning Complexity Into Clarity
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="js/main.js"></script>
 
 </body>
-
 </html>
